@@ -1,0 +1,61 @@
+.formContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Mainform {
+    background-color: #f3e1c0;
+    height: 75vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  .Mainform label {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #275070;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+  }
+  .Mainform input {
+    height: 2.7rem;
+    border: 1px solid #275070;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    font-size:1.5rem;
+    border-radius: 8px;
+  
+  }
+  .Mainform textarea {
+    border: 1px solid #275070;
+  
+    margin-left: 2rem;
+    margin-right: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    font-size:1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+  
+  }
+  .inputLabel {
+    margin-top: 2rem;
+  }
+  .formButton{
+      width:7rem;
+      height:3rem;
+      border-radius: 25px;
+      padding: 10px 20px;
+      align-self: flex-end;
+      margin-right:2rem;
+      font-size:1.3rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1.3rem;
+  
+  }

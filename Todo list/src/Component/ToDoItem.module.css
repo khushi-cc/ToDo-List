@@ -1,0 +1,47 @@
+.title{
+    font-size: 1.7rem;
+    color:#74475a;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contentContain{
+    display:flex;
+    flex-direction:row;
+    align-items: center; 
+    gap:1rem
+}
+
+.statusButton{
+    width:6.4rem;
+    height:2rem;
+    border-radius: 25px;
+    margin-right:2rem;
+    font-size:1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    background-color: red;
+    color:white;
+    border-color: rgb(107, 4, 4);
+}
+
+.statusButtonComplete{
+    width:6rem;
+    height:2rem;
+    border-radius: 25px;
+    margin-right:2rem;
+    font-size:1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(29, 134, 29);
+    color:white;
+    border-color: green;
+}
+.listItemContainer{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.buttons{
+    display:flex;
+    align-items: center;
+    margin-right:2rem;
+}
