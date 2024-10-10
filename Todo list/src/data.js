@@ -46,4 +46,4 @@ export const removeItemFromLocalStorageArray = (id) => {
 
 export const message="good morning"
 export const reply="good evening"
-export const student="khushi"
+export const user="khushi"
