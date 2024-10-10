@@ -5,7 +5,7 @@ import "./App.css";
 import RootLayout from "./Pages/RootLayout";
 import HomePage from "./Pages/HomePage";
 import AddToDO from "./Pages/AddToDO";
-import { RouterProvider,createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 function App() {
   const router = createBrowserRouter([
@@ -27,7 +27,8 @@ function App() {
 
   return (
     <>
-      <RouterProvider  router={router} ></RouterProvider>
+      <button>exit</button>
+      <RouterProvider router={router}></RouterProvider>
     </>
   );
 }
