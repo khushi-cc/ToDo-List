@@ -43,7 +43,3 @@ export const removeItemFromLocalStorageArray = (id) => {
   currentArray = currentArray.filter((item) => item.id !== id);
   saveArrayToLocalStorage(currentArray);
 };
-
-export const message="good morning"
-export const reply="good evening"
-export const user="khushi"

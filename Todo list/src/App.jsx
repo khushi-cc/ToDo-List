@@ -27,7 +27,6 @@ function App() {
 
   return (
     <>
-      <button>exit</button>
       <RouterProvider router={router}></RouterProvider>
     </>
   );
